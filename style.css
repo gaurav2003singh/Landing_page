@@ -1,0 +1,29 @@
+*{
+    margin: 0v;
+    padding: 0px;
+}
+
+.navbar{
+    width: 100vmax;
+    height: 10vmin;
+    background-color: brown;
+    display: flex;
+    margin-top: 0.2vh;
+    position: fixed;
+    
+}
+
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2px;
+}
+.h2{
+    padding-left: 62vw;
+    display: flex;
+    gap: 2vw;
+    font-size: 2vmin;
+    
+    font-weight: 200;
+    align-items: center;
+}
