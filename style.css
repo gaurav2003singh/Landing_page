@@ -81,6 +81,10 @@ body {
   text-align: center;
 }
 
+h2:hover {
+  font-size: 1.7vw;
+}
+
 @media (max-width: 700px) {
   .nav2 img {
     display: flex;
@@ -89,10 +93,15 @@ body {
   .nav2 h2 {
     display: none;
   }
+  
 }
 
-h2:hover {
-  font-size: 1.7vw;
+
+@media (min-width: 702px) {
+  .nav3 {
+    display: none !important;
+    
+  }
 }
 
 /* vh, vw ==> depends upon screen size

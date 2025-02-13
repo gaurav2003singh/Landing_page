@@ -8,3 +8,4 @@ menuBtn.addEventListener("click", function () {
     menu.style.display = "none";
   }
 });
+
